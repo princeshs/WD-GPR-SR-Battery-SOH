@@ -38,3 +38,11 @@ results/archive_old/
 Thumbs.db
 .~lock.*
 test.docx
+
+# Excluded / superseded files
+*.drawio
+architechure_diagram2.png
+project_deliverables.zip
+*backup*.pdf
+Screenshot*.png
+*Poster_url.txt
