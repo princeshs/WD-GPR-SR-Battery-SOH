@@ -1,0 +1,13 @@
+complexity,rmse,equation
+1,5.8158,cc_charge_time
+3,5.269,cc_charge_time - 1.0*ic_peak_voltage
+5,4.8684,cc_charge_time - 2.0*ic_peak_voltage
+7,4.7125,ic_peak_height*ic_peak_voltage - 2.0*ic_peak_voltage
+9,4.4482,cv_charge_time*(ic_peak_height - 1.0*ic_peak_voltage) + ic_peak_height - 1.0*ic_peak_voltage
+11,4.4338,cc_charge_time - 1.0*cv_charge_time*ic_peak_voltage + cycle*ic_peak_height - 1.0*ic_peak_voltage
+13,4.2396,cycle*ic_peak_height - 3.48*ic_peak_voltage - 0.0235
+15,3.9289,cv_charge_time*(ic_peak_height - 1.0*ic_peak_voltage) + ic_peak_height - 3.0*ic_peak_voltage - 0.0235
+19,3.8308,2.0*cc_charge_time - 1.0*cv_charge_time*ic_peak_voltage - 1.0*cv_charge_time + cycle*ic_peak_height + cycle - 2.0*ic_peak_voltage
+23,3.7513,cc_charge_time - 1.0*cv_charge_time*ic_peak_voltage - 1.0*cv_charge_time + cycle*ic_peak_height + cycle - 3.0*ic_peak_voltage
+25,3.4508,cc_charge_time - 1.0*cv_charge_time*ic_peak_voltage + cycle*(cc_charge_time + cycle - 1.0*ic_peak_voltage) + 2.0*cycle - 4.0*ic_peak_voltage
+31,3.4022,2.0*cc_charge_time - 1.0*cv_charge_time*ic_peak_voltage - 1.0*cv_charge_time + cycle*(cc_charge_time + cycle - 1.0*ic_peak_voltage) + 2.0*cycle - 1.0*ic_peak_height - 4.0*ic_peak_voltage

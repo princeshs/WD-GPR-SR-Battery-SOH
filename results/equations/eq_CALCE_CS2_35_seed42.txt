@@ -1,0 +1,11 @@
+Dataset: CALCE
+Held-Out Cell: CS2_35
+Seed: 42
+E_sel Improved Validation: False
+E_sel Expression: 0 (no correction)
+D_sel Improved Validation: False
+D_sel Expression: 0 (no correction)
+D_forced Expression: cc_charge_time*(-1.0*cycle + ic_peak_voltage) + cc_charge_time + cycle
+E_forced Expression: cc_charge_time + cv_charge_time + 2.0*cycle + 4.0*ic_peak_height
+E_shrunk Chosen Alpha: 0.0
+Recalibration factor s (var): 0.2494, s (quantile): 0.1379

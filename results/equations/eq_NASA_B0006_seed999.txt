@@ -1,0 +1,11 @@
+Dataset: NASA
+Held-Out Cell: B0006
+Seed: 999
+E_sel Improved Validation: False
+E_sel Expression: 0 (no correction)
+D_sel Improved Validation: False
+D_sel Expression: 0 (no correction)
+D_forced Expression: -0.608000000000000
+E_forced Expression: -0.608000000000000
+E_shrunk Chosen Alpha: 0.0
+Recalibration factor s (var): 0.4427, s (quantile): 0.4207

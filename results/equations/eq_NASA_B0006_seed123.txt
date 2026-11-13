@@ -1,0 +1,11 @@
+Dataset: NASA
+Held-Out Cell: B0006
+Seed: 123
+E_sel Improved Validation: False
+E_sel Expression: 0 (no correction)
+D_sel Improved Validation: False
+D_sel Expression: 0 (no correction)
+D_forced Expression: -1.0*cc_charge_time + ic_peak_height - 0.697
+E_forced Expression: -0.716*(ic_peak_height - 0.716)*(cycle + ic_peak_height - 0.563)
+E_shrunk Chosen Alpha: 0.0
+Recalibration factor s (var): 0.4484, s (quantile): 0.4251

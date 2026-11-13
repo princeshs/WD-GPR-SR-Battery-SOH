@@ -1,0 +1,11 @@
+Dataset: NASA
+Held-Out Cell: B0005
+Seed: 999
+E_sel Improved Validation: False
+E_sel Expression: 0 (no correction)
+D_sel Improved Validation: False
+D_sel Expression: 0 (no correction)
+D_forced Expression: cc_charge_time*(cv_charge_time*ic_peak_voltage + ic_peak_voltage) - 1.0*cv_charge_time - 2.0*ic_peak_voltage + 0.926
+E_forced Expression: -1.0*cv_charge_time + cycle + ic_peak_height*(-1.0*cc_charge_time + ic_peak_voltage) - 3.0*ic_peak_voltage
+E_shrunk Chosen Alpha: 0.0
+Recalibration factor s (var): 1.2632, s (quantile): 1.0636

@@ -1,0 +1,31 @@
+{
+  "process_peak_rss_mb": 467.89453125,
+  "hardware": "development_computer",
+  "hardware_description": "development computer, NOT Jetson",
+  "is_physical_jetson": false,
+  "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.43",
+  "processor": "x86_64",
+  "power_mode": "15W",
+  "precision": "FP32",
+  "batch_size": 1,
+  "warmup_runs": 100,
+  "timed_runs": 1000,
+  "component_latency_ms": {
+    "preprocessing_median": 0.006478000614151824,
+    "onnx_phi_theta_median": 0.01243599945155438,
+    "numpy_svgp_median": 0.0895670000318205,
+    "c_equation_median": 0.0077525000961031765
+  },
+  "end_to_end_latency_ms": {
+    "median": 0.12408199927449459,
+    "p95": 0.13761840082224808,
+    "p99": 0.1780316795702674,
+    "mean": 0.12678989100641047,
+    "std": 0.013370982194143882
+  },
+  "throughput_inferences_per_sec": 8059.18671400351,
+  "peak_memory_mb": 0.5886287689208984,
+  "power_watts": null,
+  "energy_milli_joules": null,
+  "note": "Physical Jetson measurements require execution on Jetson Orin Nano hardware."
+}

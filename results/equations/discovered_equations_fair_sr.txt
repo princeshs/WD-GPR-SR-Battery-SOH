@@ -1,0 +1,14 @@
+=== Fair SR Discovered Equations (Fold: NASA B0005, Seed 42) ===
+
+E_forced (Weighted, Always On):
+  Nodes: 15, Operators: 7
+  Equation: -0.204*cc_charge_time - 1.0*cv_charge_time*ic_peak_voltage + cycle - 7.34*ic_peak_voltage
+
+D_forced (Unweighted, Always On):
+  Nodes: 15, Operators: 7
+  Equation: cc_charge_time + cycle*(ic_peak_height - 1.0*ic_peak_voltage) + cycle - 4.57*ic_peak_voltage
+
+E_sel (Weighted, Nested Selection):
+  Nodes: 0, Operators: 0
+  Equation: 0 (no correction)
+  Selected: False

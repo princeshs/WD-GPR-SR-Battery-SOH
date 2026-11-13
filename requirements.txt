@@ -1,0 +1,39 @@
+# Requirements for WD-GPR-SR Battery Health Prediction
+# Python 3.10+ (Linux x86_64 / NVIDIA Jetson JetPack 5.1/6.0)
+
+# Core Deep Learning & Gaussian Processes
+torch>=2.0.0
+gpytorch>=1.11.0
+
+# Classical Machine Learning & Feature Engineering
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+scipy>=1.11.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Symbolic Regression & Mathematics
+gplearn>=0.4.2
+sympy>=1.12.0
+
+# Explainable AI (XAI)
+shap>=0.42.0
+lime>=0.2.0.1
+
+# Model Export & Edge Deployment
+onnx>=1.14.0
+onnxruntime>=1.16.0
+
+# Visualization & Notebook Reporting
+matplotlib>=3.7.0
+nbconvert>=7.0.0
+ipykernel>=6.0.0
+nbformat>=5.9.0
+
+# Report & Presentation Generation (IIT Patna Guidelines)
+reportlab>=4.0.0
+python-pptx>=0.6.21
+pymupdf>=1.23.0
+
+# Verification & Testing
+pytest>=7.0.0

@@ -1,0 +1,73 @@
+# Configuration for WD-GPR-SR Battery Health Prediction
+# IMPACT Lab, Department of Computer Science and Engineering, IIT Patna
+# Author: Prince Kumar (Roll No: 2401AI38)
+
+project:
+  name: "WD-GPR-SR"
+  title: "Battery State-of-Health Prediction Using Wide-and-Deep Gaussian Process Regression with Symbolic Residual Correction"
+  author: "Prince Kumar"
+  roll_no: "2401AI38"
+  institution: "Department of Computer Science and Engineering, Indian Institute of Technology Patna"
+  target_device: "NVIDIA Jetson Orin Nano"
+
+seeds: [42, 123, 999]
+
+datasets:
+  NASA:
+    cells: ["B0005", "B0006", "B0007", "B0018"]
+    nominal_capacity: 2.0  # Ah (18650 cylindrical LiCoO2)
+    cc_current_nominal: 1.51  # A
+    cv_voltage_threshold: 4.18  # V
+    plateau_v_low: 3.46  # V
+    plateau_v_high: 3.70  # V
+    ic_v_min: 3.60  # V
+    ic_v_max: 4.18  # V
+    has_temperature: true
+  CALCE:
+    cells: ["CS2_35", "CS2_36", "CS2_37", "CS2_38"]
+    nominal_capacity: 1.1  # Ah (Prismatic LiCoO2)
+    cc_current_nominal: 0.55  # A
+    cv_voltage_threshold: 4.18  # V
+    plateau_v_low: 3.55  # V
+    plateau_v_high: 3.77  # V
+    ic_v_min: 3.60  # V
+    ic_v_max: 4.18  # V
+    has_temperature: false
+
+features:
+  main:
+    - "cycle"
+    - "cc_charge_time"
+    - "cv_charge_time"
+    - "ic_peak_height"
+    - "ic_peak_voltage"
+  target: "SOH"
+  raw_target: "capacity"
+
+svgp_model:
+  n_inducing: 64
+  latent_dim: 4
+  hidden_dim: 32
+  dropout: 0.1
+  lr: 0.01
+  epochs: 100
+  batch_size: 64
+
+symbolic_regression:
+  population_size: 500
+  generations: 20
+  tournament_size: 20
+  parsimony_coefficient: 0.005
+  max_samples: 0.9
+  function_set: ["add", "sub", "mul", "div", "sqrt", "log", "abs", "neg"]
+  uncertainty_epsilon: 1.0e-4
+  clip_quantiles: [0.01, 0.99]
+
+evaluation:
+  protocol: "LOCO-CV"  # Leave-One-Cell-Out Cross-Validation
+  confidence_level: 0.95
+  success_criteria:
+    max_rmse: 5.0  # %
+    min_picp: 90.0  # %
+    max_latency_ms: 1.0  # ms
+

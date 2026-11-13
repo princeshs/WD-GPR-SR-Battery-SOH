@@ -1,0 +1,11 @@
+metric,value,unit,notes
+Base GP Latency,0.1085,ms,Preprocessing + ONNX phi_theta + SVGP
+C Equation Latency,0.0078,ms,libequation.so compiled C evaluation
+Full WD-GPR-SR Latency,0.1241,ms,Median end-to-end single-sample inference
+Latency Mean ± Std,0.1268 ± 0.0134,ms,Across 1000 timed evaluations
+Throughput,8059.2,inferences/sec,Single sample (batch_size=1)
+Model Traced Memory,0.59,MB,tracemalloc peak heap allocation
+Process Peak RSS,467.89,MB,resource.getrusage RU_MAXRSS
+ONNX Max Difference,5.82e-10,abs diff,ONNX Runtime vs PyTorch reference
+C Runtime Max Difference,0.000 (Exact),abs diff,Compiled C vs SymPy reference
+Benchmarked Hardware,Development PC (x86_64),hardware,"Development computer, NOT Jetson hardware"

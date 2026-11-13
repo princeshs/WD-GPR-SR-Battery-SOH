@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+!deployment/libequation.so
+
+# C build artifacts
+*.o
+*.obj
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Environments and IDEs
+.env
+.venv/
+venv/
+ENV/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.bak
+*.bak2
+
+# Large intermediate raw caches & timeseries dumps (>50MB / GitHub limits)
+data/cache/
+data/processed/cycle_timeseries.csv
+results/archive_old/
+
+# macOS / OS files
+.DS_Store
+Thumbs.db
+.~lock.*
+test.docx
