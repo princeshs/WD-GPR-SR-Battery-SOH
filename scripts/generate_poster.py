@@ -282,7 +282,7 @@ def draw_poster_header(c, styles):
 
     c.setFont("Helvetica", 9.5)
     c.setFillColor(HexColor("#94A3B8"))
-    c.drawString(ix, banner_y + banner_h - 72, "Course: CS550 Machine Learning • Academic Year 2025–2026")
+    c.drawString(ix, banner_y + banner_h - 72, "Course: CS3103 Machine Learning • Academic Year 2025–2026")
 
     # Lab badge box
     draw_rounded_rect(c, ix, banner_y + banner_h - 105, 230, 24, 4, HexColor("#0F2D59"), CYAN_ACCENT, 1)

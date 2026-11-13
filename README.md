@@ -5,14 +5,14 @@
 [![Tests](https://img.shields.io/badge/Tests-43%20Passed-2ea44f?logo=pytest&logoColor=white)](tests/)
 [![Framework](https://img.shields.io/badge/Framework-PyTorch%20%7C%20GPyTorch-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Edge AI](https://img.shields.io/badge/Edge%20Engine-0.12%20ms%20%7C%20Zero--PyTorch-brightgreen?logo=nvidia&logoColor=white)](deployment/)
-[![Course](https://img.shields.io/badge/IIT%20Patna-CS3103%20%2F%20CS550%20PBL-4B0082)](https://www.iitp.ac.in/)
+[![Course](https://img.shields.io/badge/IIT%20Patna-CS3103%20PBL-4B0082)](https://www.iitp.ac.in/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 An interpretable, uncertainty-quantified, physics-guided machine learning framework for Lithium-ion battery State-of-Health (SOH) estimation, conforming to the **IIT Patna Machine Learning Project Guidelines**.
 
 - **Author:** Prince Kumar &bull; **Roll Number:** 2401AI38  
 - **Department:** Department of Computer Science and Engineering, Indian Institute of Technology Patna  
-- **Course:** CS3103 / CS550 Project Based Learning — Machine Learning  
+- **Course:** CS3103 Project Based Learning — Machine Learning  
 - **Target Edge Platform:** Embedded BMS Microcontrollers & NVIDIA Jetson Orin Nano  
 
 ---
@@ -224,7 +224,7 @@ python3 scripts/generate_guideline_report.py
   author       = {Prince Kumar},
   title        = {Battery State-of-Health Prediction Using Wide-and-Deep Gaussian Process Regression with Symbolic Residual Correction},
   year         = {2026},
-  howpublished = {Indian Institute of Technology Patna, CS3103/CS550 Machine Learning PBL},
+  howpublished = {Indian Institute of Technology Patna, CS3103 Machine Learning PBL},
   url          = {https://github.com/princeshs/WD-GPR-SR-Battery-SOH}
 }
 ```
