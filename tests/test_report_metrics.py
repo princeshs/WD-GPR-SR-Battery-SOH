@@ -13,7 +13,7 @@ import pandas as pd
 import numpy as np
 
 sys.path.insert(0, ".")
-from scripts.generate_guideline_report import (
+from src.report_metrics import (
     load_all_metrics,
     get_metrics_context,
     get_calce_benchmark_rows,

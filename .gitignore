@@ -46,3 +46,11 @@ project_deliverables.zip
 *backup*.pdf
 Screenshot*.png
 *Poster_url.txt
+
+# Report and deliverable generation scripts (kept locally, not pushed to repository)
+scripts/generate_*.py
+scripts/build_*.py
+scripts/render_equations.py
+scripts/update_project_poster.py
+scripts/patch_notebook.py
+

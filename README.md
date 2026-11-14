@@ -209,10 +209,9 @@ pytest tests/
 python3 deployment/benchmark.py
 ```
 
-### Recompile Course Deliverables
+### Run Full Benchmark Evaluation
 ```bash
-# Recompile 8-page IEEE Guideline Report
-python3 scripts/generate_guideline_report.py
+python3 scripts/run_full_evaluation.py
 ```
 
 ---
