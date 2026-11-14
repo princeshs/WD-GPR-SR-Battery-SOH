@@ -21,10 +21,9 @@ An interpretable, uncertainty-quantified, physics-guided machine learning framew
 
 | Deliverable | Description | Format / Direct Link |
 |---|---|---|
-| **Project Report** | 8-Page IEEE Formatted Course Report (100% metrics synced) | [📄 `2401AI38_MLProject.pdf`](2401AI38_MLProject.pdf) |
+| **Project Report** | Course Project Report (12–15 pages, 100% metrics synced) | [📄 `2401AI38_MLProject_Report.pdf`](2401AI38_MLProject_Report.pdf) \| [📝 `2401AI38_MLProject_Report.docx`](2401AI38_MLProject_Report.docx) |
 | **End-to-End Notebook** | Master Jupyter Notebook (Executed sequentially with all outputs) | [📓 `2401AI38_MLProject.ipynb`](2401AI38_MLProject.ipynb) |
 | **Presentation Poster** | High-Resolution Research Presentation Poster | [🖼️ `WD_GPR_SR_enhanced_poster.pdf`](WD_GPR_SR_enhanced_poster.pdf) \| [PPTX](WD_GPR_SR_enhanced_poster.pptx) |
-| **Full Technical Report** | Extended Technical Reference Document | [📝 `2401AI38_MLProject_Report.docx`](2401AI38_MLProject_Report.docx) \| [PDF](2401AI38_MLProject_Report.pdf) |
 
 ---
 
@@ -199,7 +198,7 @@ cd WD-GPR-SR-Battery-SOH
 pip install -r requirements.txt
 ```
 
-### Run Verification Tests (43 Unit Tests)
+### Run Verification Tests (34 Unit Tests)
 ```bash
 pytest tests/
 ```

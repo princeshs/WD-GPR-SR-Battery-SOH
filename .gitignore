@@ -59,4 +59,8 @@ reports/VIVA_PREP.md
 *viva_prep*
 *VIVA_PREP*
 
+# Report validation tests (kept locally, not pushed to repository)
+tests/test_report_metrics.py
+
+
 
