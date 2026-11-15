@@ -53,6 +53,7 @@ scripts/build_*.py
 scripts/render_equations.py
 scripts/update_project_poster.py
 scripts/patch_notebook.py
+scripts/download_research_papers.py
 
 # Internal preparation notes (kept locally, not pushed to repository)
 reports/VIVA_PREP.md
