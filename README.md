@@ -23,7 +23,6 @@ An interpretable, uncertainty-quantified, physics-guided machine learning framew
 |---|---|---|
 | **Project Report** | Course Project Report (12–15 pages, 100% metrics synced) | [📄 `2401AI38_MLProject_Report.pdf`](2401AI38_MLProject_Report.pdf) \| [📝 `2401AI38_MLProject_Report.docx`](2401AI38_MLProject_Report.docx) |
 | **End-to-End Notebook** | Master Jupyter Notebook (Executed sequentially with all outputs) | [📓 `2401AI38_MLProject.ipynb`](2401AI38_MLProject.ipynb) |
-| **Presentation Slides** | 10-Slide Project Presentation Deck | [📊 `2401AI38_MLProject.pptx`](2401AI38_MLProject.pptx) |
 | **Presentation Poster** | High-Resolution Research Presentation Poster | [🖼️ `WD_GPR_SR_poster.pdf`](WD_GPR_SR_poster.pdf) \| [PPTX](WD_GPR_SR_poster.pptx) |
 | **Literature & References** | Curated Open-Access Foundational Research Papers (20 papers) | [📚 `research_papers/`](research_papers/) |
 
