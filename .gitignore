@@ -43,6 +43,7 @@ test.docx
 *.drawio
 architechure_diagram2.png
 project_deliverables.zip
+*.zip
 *backup*.pdf
 Screenshot*.png
 *Poster_url.txt
